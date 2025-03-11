@@ -1,6 +1,6 @@
 {
   "name": "next-web-helpers",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "exports": {
     "./cookies": {
@@ -12,6 +12,12 @@
       "react-server": "./lib/headers.react-server.js",
       "types": "./lib/headers.d.ts",
       "default": "./lib/headers.js"
+    },
+    "./environment": {
+      "react-server": "./lib/environment.react-server.js",
+      "node": "./lib/environment.node.js",
+      "types": "./lib/environment.d.ts",
+      "default": "./lib/environment.js"
     }
   },
   "packageManager": "pnpm@10.4.1",
