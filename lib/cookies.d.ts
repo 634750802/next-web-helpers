@@ -4,6 +4,8 @@
  */
 export function getCookie (name: string): Promise<string | undefined>
 
+export function getCookies (names: string[]): Promise<Array<string | undefined>>
+
 /**
  * @returns The `Cookie` header value string for server or client request.
  * - On client, cookies are always sent by default, returns undefined.
