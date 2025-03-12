@@ -12,3 +12,5 @@ export function getCookies (names: string[]): Promise<Array<string | undefined>>
  * - On server, get cookies from `next/header` and serialize to string.
  */
 export function getCookiesHeaderValueForRequest (): Promise<string | undefined>
+
+export function appendCookie (cookieString: string, cookieName: string, value: string): string
